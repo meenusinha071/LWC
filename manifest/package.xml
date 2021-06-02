@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>FlowPage</members>
+		<members>Web_Chat</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>LiveChatTranscriptEventTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>lightningOutApp</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomLabels</name>
+	</types>
+	<types>
+		<members>capture_credit_card_details</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>lwcchatwindow</members>
+		<members>lwcflow</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<version>51.0</version>
+</Package>

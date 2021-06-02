@@ -1,0 +1,15 @@
+.slds-dl_horizontal__label, .slds-dl--horizontal__label {
+    width: 40%!important;
+ }
+ 
+ .slds-dl_horizontal__detail, .slds-dl--horizontal__detail {
+    width: 60%!important;
+}
+
+.slds-dl_horizontal{
+    margin:4px;
+}
+
+.timer{
+    padding:0.5rem;background:red; display:none;
+}

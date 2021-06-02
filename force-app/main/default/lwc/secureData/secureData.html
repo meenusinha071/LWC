@@ -1,0 +1,38 @@
+<template> 
+    <template if:true = {chatTranscipt}>
+       
+        <article class="slds-card">
+            <div class="slds-card__header slds-grid">
+                <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                    <div class="slds-media__body">
+                        <h2 class="slds-card__header-title">
+                            <a href="#" class="slds-card__header-link slds-truncate" title="Secure Information">
+                            <span>Secure Information</span>
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="slds-no-flex">
+                        <lightning-button variant="brand" label="Refresh" title="Refresh Info" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                    </div>
+                </header>
+            </div>
+            <div class="slds-card__body slds-card__body_inner">
+                
+                    <div class="timer">
+                        <div lwc:dom="manual" class='counter slds-text-color_inverse'></div>
+                    </div>
+                
+
+                <dl  class="slds-dl_horizontal" >
+                    <dt class="slds-dl_horizontal__label">Credit Card Number :</dt>
+                    <dd class="slds-dl_horizontal__detail">{ccNumber}</dd>
+                    <dt class="slds-dl_horizontal__label">CVV Number :</dt>
+                    <dd class="slds-dl_horizontal__detail">{cvv}</dd>
+                    <dt class="slds-dl_horizontal__label">Expiry Date :</dt>
+                    <dd class="slds-dl_horizontal__detail">{expDate}</dd>
+                    
+                </dl>
+            </div>
+        </article>
+    </template>
+</template>

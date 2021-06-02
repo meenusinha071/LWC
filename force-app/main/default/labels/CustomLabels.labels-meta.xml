@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CVVnumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CVVnumber</shortDescription>
+        <value>CVV Number</value>
+    </labels>
+    <labels>
+        <fullName>CreditCardNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreditCardNumber</shortDescription>
+        <value>Credit Card Number</value>
+    </labels>
+    <labels>
+        <fullName>Credit_Card_CVV_Number</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Credit Card CVV Number</shortDescription>
+        <value>CVV Number</value>
+    </labels>
+    <labels>
+        <fullName>Credit_card_expire_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Credit card expire date</shortDescription>
+        <value>Expiry Date</value>
+    </labels>
+    <labels>
+        <fullName>Credit_card_number</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Credit card number</shortDescription>
+        <value>Credit Card Number</value>
+    </labels>
+    <labels>
+        <fullName>CustomURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomURL</shortDescription>
+        <value>https://creditcardinfo-developer-edition.ap24.force.com</value>
+    </labels>
+    <labels>
+        <fullName>CustomURL1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomURL1</shortDescription>
+        <value>https://creditcardinfo-developer-edition.ap24.force.com/flowcomponent/s/flowcomponent?flowName=capture_credit_card_details</value>
+    </labels>
+    <labels>
+        <fullName>expirydate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>expirydate</shortDescription>
+        <value>Expiry Date</value>
+    </labels>
+</CustomLabels>

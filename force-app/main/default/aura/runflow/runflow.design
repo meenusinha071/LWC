@@ -1,0 +1,5 @@
+<design:component label="Run Flow">
+        <design:attribute name="flowName" label="Flowname" default="{!flowName}"/>
+        <design:attribute name="chatNumber" label="chatNumber" default="{!chatNumber}"/>
+        <design:attribute name="language" label="language" default="{!language}"/>
+</design:component>

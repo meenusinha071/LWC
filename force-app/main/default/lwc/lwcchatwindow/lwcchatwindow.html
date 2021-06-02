@@ -1,0 +1,18 @@
+<template>
+
+    <!-- DEFAULT CHAT TEMPLATE -->
+    <template if:true={isBaseTextVisible}>
+        <div class={messageStyle}>
+            <lightning-formatted-rich-text value={strMessage}></lightning-formatted-rich-text>
+        </div>
+    </template>
+
+    <!-- Display Flow in LWC -->
+   
+    <template if:true={flow} >
+        <c-lwcflow input-params={strMessage} onpostmessage={handlePostMessage} source-url={label.CustomURL}></c-lwcflow>
+    </template>
+    
+    <!-- ADD ADDITIONAL LWCs HERE -->
+
+</template>
